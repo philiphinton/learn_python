@@ -1,5 +1,5 @@
 
-# Second version: two functions — one for addition, one for subtraction
+# Two functions — one for addition, one for subtraction
 
 def add(x, y):
     sum = x + y
@@ -17,4 +17,5 @@ print(f"The sum of 10 and 20 is {result}.")
 second_result = subtract(10, 5)
 print(f"10 minus 5 is {second_result}.")
 
-# Note that `sum` and `diff` are not accessible outside their functions
+# Note that `sum` and `diff` are not accessible outside their functions:
+# print(diff)

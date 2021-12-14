@@ -1,6 +1,6 @@
 
-# Comments are good, but docstrings (https://www.programiz.com/python-programming/docstrings)
-# are better. Hover over the function calls on lines 22 and 25 to see them in action.
+# Comments are good, but docstrings are better.
+# Hover over the function calls on lines 22 and 25 to see them in action.
 
 def add(x, y):
     """Takes two numbers and returns their sum."""

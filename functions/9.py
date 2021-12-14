@@ -5,7 +5,7 @@
 # For an explanation of the use of the "*" in the definition block, see
 # https://ivergara.github.io/boolean-arguments-to-functions-in-python.html
 
-def calculate(x: int, y: int, *, subtraction: bool = False):
+def calculate(x: int, y: int, *, subtraction: bool = False) -> int:
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:

@@ -1,5 +1,5 @@
 
-# Version 1: addition only (note two blank lines after definition)
+# Addition-only (note two blank lines after definition)
 
 def add(x, y):
     sum = x + y

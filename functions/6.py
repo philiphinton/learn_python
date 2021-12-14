@@ -10,7 +10,7 @@
 
 def add(x, y=0):
     """Takes two numbers and returns their sum.
-    
+
     Second number optional; defaults to `0`.
     """
 
@@ -38,4 +38,5 @@ result = add(first, second)
 print(f"The sum of {first} and {second} is {result}.")
 
 result = subtract(first, second)
+
 print(f"{first} minus {second} is {result}.")

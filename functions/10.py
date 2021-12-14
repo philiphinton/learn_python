@@ -1,8 +1,7 @@
 
-# There are two differences between this version and version 9.
-# Line 18 is only be executed when `subtraction` is False.
+# The oly difference between this version and version 9 is on line 18.
 
-def calculate(x: int, y: int, *, subtraction: bool = False):
+def calculate(x: int, y: int, *, subtraction: bool = False) -> int:
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:

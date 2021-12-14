@@ -2,7 +2,7 @@
 # You can provide what are called "type hints" within function definitions.
 # These dictate what the function will accept, and what it will return.
 # So far we haven't specified any of this, and it was possible to
-# pass non-integers as input!
+# pass non-integers as input! 😱
 
 def add(x: int, y: int = 0) -> int:
     """Takes two numbers and returns their sum.

@@ -1,7 +1,8 @@
 
-# Wrap the operations into one function, with a mandatory "operation" parameter
+# Wrap the operations into one function, now named `calculate`,
+# with a mandatory "operation" parameter.
 
-def calculate(x: int, y: int, operation: str):
+def calculate(x: int, y: int, operation: str) -> int:
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:

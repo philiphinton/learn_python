@@ -1,6 +1,6 @@
 
-# Let's get input from the user instead, and add some
-# comments along the way explaining what we're doing
+# Let's get input from the user instead of hardcoding numbers into the
+# function call. and add some comments explaining what we're doing.
 
 # Define two functions; one to perform additon, and another, subtraction
 def add(x, y):
@@ -11,8 +11,8 @@ def subtract(x, y):
     return x - y
 
 
-# Single-line comments start with a `#` (hashmark/'pound' sign).
-# Multiline ones are wrapped in three `'` (straight apostrophes), like so:
+# Single-line comments, like this one, start with a `#` (hashmark/'pound' sign)
+# Multi-line ones are wrapped in three `'` (straight apostrophes), like so:
 
 '''
 Get two inputs from the user and cast them to integers.
