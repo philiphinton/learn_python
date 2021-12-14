@@ -1,2 +1,2 @@
-# learn_python
-Python 3.10 tutorials
+# Learn Python
+Python 3.10 tutorials.
