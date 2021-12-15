@@ -21,11 +21,8 @@ This is because the built-in input() method returns a string by default.
 You could also do the casting within the functions themselves,
 but doing it just once, at the time of capture, is probably more efficient.
 '''
-print("Enter a number:")
-first = int(input())
-
-print("Enter another number:")
-second = int(input())
+first = int(input("Enter a number: "))
+second = int(input("Enter another number: "))
 
 # Print the results of the two calculations
 result = add(first, second)

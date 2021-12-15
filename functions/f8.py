@@ -21,11 +21,8 @@ def calculate(x: int, y: int, operation: str) -> int:
 
 
 # Get two inputs from the user and cast them to integers
-print("Enter a number:")
-first = int(input())
-
-print("Enter another number:")
-second = int(input())
+first = int(input("Enter a number: "))
+second = int(input("Enter another number: "))
 
 # Print the results of the two calculations
 result = calculate(first, second)
