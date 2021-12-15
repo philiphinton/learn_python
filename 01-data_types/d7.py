@@ -13,8 +13,8 @@ print(f"There are {num_items} things on it.")
 bananas_count = shopping_list.count('Bananas')
 print(f"\"Bananas\" is there {bananas_count} times, for some reason.\n")
 
-# Use sort to re-order the list; we dont' need a new variable to store the
-# result in; the sort() method acts on the existing variable.
+# Use sort() to re-order the list. Note that you don't need a new variable
+# to store the result in; the sort() method modifies the existing variable.
 shopping_list.sort()
 print("Now the list is in alphabetical order:")
 print(shopping_list)
