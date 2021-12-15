@@ -4,16 +4,8 @@
 string_variable = "Hello"
 second_string_variable = 'world'
 
-# the old (Python 2) way
+# Concatenation, the old (Python 2.x) way
 print(string_variable + " " + second_string_variable + "!")
 
-# You can print a string multiple times by… multiplying it!
-print("-" * 10)
-
-# The new way; a format string
+# Concatenation, the new way — in a "format string", which starts with an 'f'
 print(f"{string_variable} {second_string_variable}!")
-
-# If you want to include apostrophes in your string, it's easiest to wrap it
-# in double quotes.
-niceday = "It's a nice day!"
-print(niceday)
