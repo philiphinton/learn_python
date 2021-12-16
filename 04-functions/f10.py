@@ -17,11 +17,6 @@ def calculate(x: int, y: int, *, subtraction: bool = False) -> int:
         return x - y
     return x + y
 
-    # You could also do this:
-    # if not subtraction:
-    #     return x + y
-    # return x - y
-
 
 # Get two inputs from the user and cast them to integers
 first = int(input("Enter a number: "))
