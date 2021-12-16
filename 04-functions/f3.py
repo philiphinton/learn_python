@@ -1,6 +1,6 @@
 
 # You can simplify the syntax within a function definition to return the
-# result straight away. Note that on line 15 we re-use the `result` variable.
+# result straight away. Note that on line 16 we re-use the `result` variable.
 
 def add(x, y):
     return x + y
