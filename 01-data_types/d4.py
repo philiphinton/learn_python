@@ -1,5 +1,6 @@
 
-# Accessing ranges in strings
+# Accessing slices in strings
+# See http://opensask.ca/Python/Strings/StringIntro.html#the-slice-operator
 
 name = "Phil Hinton"
 
