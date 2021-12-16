@@ -1,3 +1,4 @@
+
 # List variables hold elements in a series
 
 shopping_list = ["Tomatoes", "Bananas", "Crackers",

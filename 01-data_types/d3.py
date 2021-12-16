@@ -1,3 +1,4 @@
+
 # Multiplying strings and accessing characters within them
 
 # You can print a string multiple times by... multiplying it!

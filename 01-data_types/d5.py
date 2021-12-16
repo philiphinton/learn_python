@@ -1,3 +1,4 @@
+
 # Using len() to count the number of characters in a string
 
 name = "Phil Hinton"
