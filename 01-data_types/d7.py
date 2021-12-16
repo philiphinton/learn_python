@@ -1,5 +1,5 @@
 
-# List variables hold elements in a series
+# List variables are iterable and hold elements in series
 
 shopping_list = ["Tomatoes", "Bananas", "Crackers",
                  "Sugar", "Icecream", "Bread", "Bananas", "Chocolate"]
