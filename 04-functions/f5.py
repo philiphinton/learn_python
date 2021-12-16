@@ -1,6 +1,6 @@
 
 # Comments are good, but docstrings are better.
-# Hover over the function calls on lines 23 and 26 to see them in action.
+# Hover over the function calls on lines 18 and 21 to see them in action.
 
 def add(x, y):
     """Takes two numbers and returns their sum."""
@@ -15,13 +15,8 @@ def subtract(x, y):
     return x - y
 
 
-# Get two inputs from the user and cast them to integers
-first = int(input("Enter a number: "))
-second = int(input("Enter another number: "))
+result = add(10, 20)
+print(f"The sum of 10 and 20 is {result}.")
 
-# Print the results of the two calculations
-result = add(first, second)
-print(f"The sum of {first} and {second} is {result}.")
-
-result = subtract(first, second)
-print(f"{first} minus {second} is {result}.")
+result = subtract(10, 5)
+print(f"10 minus 5 is {result}.")
