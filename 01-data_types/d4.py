@@ -9,5 +9,8 @@ print(name[0:4])
 # From character 5 to the end
 print(name[5:])
 
-# Start at the end, and go back six characters — inclusive of the sixth char.
+# Start 6 characters back from the end, then go to the end
 print(name[-6:])
+
+# Start 6 characters back from the end, then stop two characters from the end
+print(name[-6:-2])
