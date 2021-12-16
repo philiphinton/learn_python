@@ -1,6 +1,6 @@
 
 # Comments are good, but docstrings are better.
-# Hover over the function calls on lines 22 and 25 to see them in action.
+# Hover over the function calls on lines 23 and 26 to see them in action.
 
 def add(x, y):
     """Takes two numbers and returns their sum."""
