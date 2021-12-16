@@ -1,7 +1,4 @@
 
-# Dictionaries in Python hold key-value pairs
-
-# Let's create a shopping list again, and use a dictionary to hold quantities
 shopping_list = {
     'Tomatoes': 6,
     'Bananas': 5,
@@ -12,4 +9,6 @@ shopping_list = {
     'Chocolate': 2
 }
 
+# Let's say we want only two loaves of bread
+shopping_list['Bread'] = 2
 print(f"Here's the shopping list:\n{shopping_list}.\n")
