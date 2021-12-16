@@ -16,6 +16,7 @@ print(f"\"Bananas\" is there {bananas_count} times, for some reason.\n")
 
 # Use sort() to re-order the list. Note that you don't need a new variable
 # to store the result in; the sort() method modifies the existing variable.
+# Good explanation here: http://opensask.ca/Python/Lists/ListMethods.html#id1
 shopping_list.sort()
 print("Now the list is in alphabetical order:")
 print(shopping_list)
