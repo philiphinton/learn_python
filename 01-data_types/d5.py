@@ -8,4 +8,4 @@ num_characters_in_name = len(name)
 print(f"There are {num_characters_in_name} characters in the name \"{name}\".")
 
 # Just be careful not to go out of bounds; uncomment this to see why!
-# print(name[11])
+print(name[11])
