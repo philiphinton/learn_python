@@ -1,7 +1,7 @@
 
 # Modules in Python are basically .py files — we've been making them all along.
 
-# To import a module, use the "import" keyword:
+# To import a module, use the "import" keyword at the top of your file:
 import datetime
 
 today = datetime.date.today()

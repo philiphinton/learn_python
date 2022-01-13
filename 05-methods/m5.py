@@ -1,12 +1,13 @@
 
-# Import our module and rename it within this script
+# Import our module and rename it (within this script)
 import calculator as calc
 
-# Give its author some credit
+#Print program title and author name
 print(f"Calculator, by {calc.author}.")
 print("*" * 10)
 
-# Everything from here down is identical to before, except the function calls
+# Everything from here down is identical to previous exercises in the
+# `functions` folder, except the names of the function calls themselves
 
 # Get two inputs from the user and cast them to integers
 first = int(input("Enter a number: "))

@@ -1,9 +1,11 @@
 
-# In the previous exercise, we imported the whole datetime module, but only
-# used the "date" part of it. You can be more specific in the import statement:
+# In the previous exercise, we imported the entire datetime module, but used
+# only one function from it ("datetime.date").
+#
+# You can specfiy module functions in import statements:
 from datetime import date
 
-# Then you don't need the longer syntax of the module name before the class
+# This way, you don't need the longer syntax of the module name:
 today = date.today()
 
 long_format_date = today.strftime("%B %d, %Y")
