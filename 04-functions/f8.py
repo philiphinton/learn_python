@@ -1,11 +1,7 @@
 
 # Wrap the operations into one function, with a mandatory "operation" parameter
 
-<<<<<<< Updated upstream:functions/functions_08.py
-def calculate(x: int, y: int, operation: str):
-=======
 def calculate(operation: str, x: int, y: int = 1) -> int:
->>>>>>> Stashed changes:04-functions/f8.py
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:

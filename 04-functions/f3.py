@@ -1,16 +1,10 @@
 
-<<<<<<< Updated upstream:functions/functions_03.py
-# You can simplify the syntax within a function definition to
-# straight away return the result.
-# Note that on line 15 we re-use `result`.
-=======
 # You can simplify the syntax within a function definition to return the
 # result straight away. Note that on line 16 we re-use the `result` variable.
 # Compare this code with f2.py
 # def add(x, y):
 #     sum = x + y
 #     return sum
->>>>>>> Stashed changes:04-functions/f3.py
 
 def add(x, y):
     return x + y
