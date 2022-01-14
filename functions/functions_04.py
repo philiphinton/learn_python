@@ -33,3 +33,12 @@ print(f"The sum of {first} and {second} is {result}.")
 
 result = subtract(first, second)
 print(f"{first} minus {second} is {result}.")
+
+'''
+Error message on entering Pi:
+Enter a number: 3.14159
+Traceback (most recent call last):
+  (filepath is here)
+    first = int(input("Enter a number: "))
+ValueError: invalid literal for int() with base 10: '3.14159'
+'''

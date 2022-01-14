@@ -1,6 +1,10 @@
 
+<<<<<<< Updated upstream:functions/functions_10.py
 # There are two differences between this version and version 9.
 # Line 18 is only be executed when `subtraction` is False.
+=======
+# The only difference between this version and version 9 is on line 18 where 'else:' has been removed.
+>>>>>>> Stashed changes:04-functions/f10.py
 
 def calculate(x: int, y: int, *, subtraction: bool = False):
     """Calculates the sum (or difference) of two numbers.
@@ -14,9 +18,11 @@ def calculate(x: int, y: int, *, subtraction: bool = False):
         Whether to perform subtraction. Default is False.
     """
 
-    if subtraction:
-        return x - y
-    return x + y
+    # if subtraction:
+    #     return x - y
+    # return x + y
+
+    return x - y if subtraction else x + y
 
     # You could also do this:
     # if not subtraction:

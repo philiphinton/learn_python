@@ -11,10 +11,16 @@ def subtract(x, y):
     return diff
 
 
+num = 10
+second_num = 20
+
 result = add(10, 20)
 print(f"The sum of 10 and 20 is {result}.")
 
-second_result = subtract(10, 5)
+result = add(num, second_num)
+print(f"The sum of {num} and {second_num} is {result}.")
+
+second_result = subtract(num, 5)
 print(f"10 minus 5 is {second_result}.")
 
 # Note that `sum` and `diff` are not accessible outside their functions

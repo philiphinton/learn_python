@@ -31,15 +31,25 @@ def subtract(x: int, y: int = 1) -> int:
 
 
 # Get two inputs from the user and cast them to integers
+<<<<<<< Updated upstream:functions/functions_07.py
 print("Enter a number:")
 first = int(input())
 
 print("Enter another number:")
 second = int(input())
+=======
+# first = int(input("Enter a number: "))
+# second = int(input("Enter another number: "))
+
+first = 20
+# second = 10
+second = "the default value"
+
+>>>>>>> Stashed changes:04-functions/f7.py
 
 # Print the results of the two calculations
-result = add(first, second)
+result = add(first)
 print(f"The sum of {first} and {second} is {result}.")
 
-result = subtract(first, second)
+result = subtract(first)
 print(f"{first} minus {second} is {result}.")
