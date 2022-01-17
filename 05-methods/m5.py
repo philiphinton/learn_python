@@ -16,8 +16,8 @@ second = int(input("Enter another number: "))
 result = calc.calculate(first, second)
 print(f"The sum of {first} and {second} is {result}.")
 
-result = calc.calculate(first, second, subtraction=True)
+result = calc.calculate(first, second, subtract=True)
 print(f"{first} minus {second} is {result}.")
 
-result = calc.calculate(first, subtraction=True)
+result = calc.calculate(first, subtract=True)
 print(f"{first} minus the default value is {result}.")
