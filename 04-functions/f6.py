@@ -39,6 +39,6 @@ second = int(input("Enter another number: "))
 result = add(first, second)
 print(f"The sum of {first} and {second} is {result}.")
 
-result = subtract(first, second)
-
-print(f"{first} minus {second} is {result}.")
+#If you don't pass a second variable, the default value is used:
+result = subtract(first)
+print(f"{first} minus the default value (1) is {result}.")
