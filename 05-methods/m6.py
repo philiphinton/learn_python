@@ -7,9 +7,6 @@ from calculator import author
 print(f"Calculator, by {author}.")
 print("*" * 10)
 
-# Everything from here down is identical to previous exercises in the
-# `functions` folder, except the names of the function calls themselves
-
 # Get two inputs from the user and cast them to integers
 first = int(input("Enter a number: "))
 second = int(input("Enter another number: "))
