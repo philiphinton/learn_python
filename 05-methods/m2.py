@@ -2,10 +2,11 @@
 # In the previous exercise, we imported the entire datetime module, but used
 # only one function from it ("datetime.date").
 
-# You can specfiy module classes in import statements:
+# Import module objects to the current namespace:
 from datetime import date
 
-# This way, you don't need the longer syntax of the module name in the call:
+# This way, you don't need the longer syntax of the module name in the call;
+# the `date` class has been localised to this script.
 today = date.today()
 
 long_format_date = today.strftime("%B %d, %Y")
