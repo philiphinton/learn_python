@@ -16,3 +16,5 @@ print(speech)
 # one of them, count(), counts the number of occurrences of a substring.
 count_of_to = speech.count('to')
 print(f"\nThe word 'to' appears {count_of_to} times in that speech.")
+
+# The "\n" at the start of that print call creates a new line
