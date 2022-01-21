@@ -4,8 +4,6 @@
 # So far we haven't specified any of this, and it was possible to
 # pass non-integers as input! 😱
 
-from re import S
-
 
 def add(x: int, y: int = 0) -> int:
     """Takes two numbers and returns their sum.
