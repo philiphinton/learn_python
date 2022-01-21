@@ -4,8 +4,11 @@
 # So far we haven't specified any of this, and it was possible to
 # pass non-integers as input! 😱
 
+# Grave accents either side of a text string cause it to be formatted by other programs 
+# (e.g. hover over "add" to see the popup).
 
-def add(x: int, y: int = 0) -> int:
+
+def add(x, y: int = 0) -> int:
     """Takes two numbers and returns their sum.
 
     Second number optional; defaults to `0`.
