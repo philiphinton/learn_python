@@ -9,9 +9,12 @@ def calculate(x: int, y: int = 1, operation: str = None) -> int:
     `x` : int
         The first number
     `y` : int, optional
-        The second number (default is 1)
+        The second number (default is `1`)
     `operation`: str, optional
-        Pass "subtract" to perform subtraction
+        Pass "subtract" to perform subtraction (default is `None`)
+
+    Returns:
+        int
     """
 
     if operation == "subtract":

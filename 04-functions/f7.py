@@ -16,8 +16,8 @@ def add(x: int, y: int = 0) -> int:
     return x + y
 
 
-# Docstrings that define functions are often laid out with a block
-# in which parameter types, optionality, and defaults are explained.
+# Docstrings that define functions are often laid out with a block in which
+# parameter/argument types, optionality, and return values are explained.
 
 
 def subtract(x: int, y: int = 1) -> int:
@@ -28,6 +28,9 @@ def subtract(x: int, y: int = 1) -> int:
         The first number
     `y` : int, optional
         The second number (default is `1`)
+
+    Returns:
+        int
     """
 
     return x - y
