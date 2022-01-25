@@ -3,7 +3,8 @@
 import calculator as calc
 
 # Print program title and author name
-print(f"Calculator, by {calc.author}.")
+print(f"\nCalculator, By {calc.author}.")
+print(calc.__doc__)
 print("*" * 10)
 
 # Everything from here down is identical to previous exercises in the
