@@ -16,5 +16,7 @@ total = reduce(lambda x, y: x + y, num_list)
 print(total)
 
 # Ultimately adding numbers together like this is not a great use of `reduce()`
-# Because built-ins like "sum" and the "add" module in "operator" exist.
-# See https://stackoverflow.com/a/33772246/10267529 for details.
+# because built-ins like "sum" and the "add" module in "operator" exist, but it
+# gives you some idea of how cumulative functions work.
+# See https://stackoverflow.com/a/33772246/10267529 and
+# https://realpython.com/python-reduce-function/ for more.
