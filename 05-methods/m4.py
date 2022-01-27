@@ -8,7 +8,11 @@ import calculator as calc
 
 props_and_methods = dir(calc)
 
-print(props_and_methods)
+print("Props and methods for `calc`:\n", props_and_methods)
 
 # You can see there are lots of "dunder" (double underscore) methods and two
 # other ones at the end — author (a string), and the `calculate` function
+
+# Let's print the docstring for `calc`
+print()
+print("Docstring for `calc`:\n", calc.__doc__)

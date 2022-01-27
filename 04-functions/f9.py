@@ -14,7 +14,10 @@ def calculate(x: int, y: int = 1, *, subtract: bool = False) -> int:
     `y` : int, optional
         The second number (default is 1)
     `subtraction`: bool, optional
-        Whether to perform subtraction. Default is False.
+        Whether to perform subtraction. (Default is `False`.)
+
+    Returns:
+        int
     """
 
     if subtract:
