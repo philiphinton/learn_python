@@ -17,18 +17,20 @@ Product = collections.namedtuple(
 )
 
 shopping_list = [
-    Product("Tomatoes", None, .38, "kg", "A", False),
-    Product("Bananas", None, .67, "kg", "C", False),
-    Product("Crackers", "Griffin's", 2.35, "box", "F", True),
+    Product("Tomatoes", None, .38, "kg", "01", False),
+    Product("Bananas", None, .67, "kg", "12", False),
+    Product("Crackers", "Griffin's", 2.35, "box", "02", True),
     Product("White sugar", "Chelsea", 5.5, "1.5kg", "D", True),
-    Product("Vanilla icecream", "Tip Top", 6.5, "2L", "X", True),
-    Product("Toast bread", "Vogel's", 3.89, "loaf", "A", False),
+    Product("Vanilla icecream", "Tip Top", 6.5, "2L", "10", True),
+    Product("Toast bread", "Vogel's", 3.89, "loaf", "02", False),
     Product("Chocolate", "Whittaker's", 5.49, "block", "R", True)
 ]
 
-# You can index into lists and print and element by calling it by name
+# You can index into lists and print an element by calling it by name
 first_item_name = shopping_list[0].name
-print(f"The first item in the list is {first_item_name.lower()}.")
+print(f"The first item in the list is {first_item_name.upper()}")
 
 last_item_brand = shopping_list[-1].brand
-print(f"The brand name of the last item in the list is {last_item_brand}.")
+print(f"The brand name of the last item in the list is \"{last_item_brand}\".")
+
+print(f"The first item in the list is {first_item_name}")

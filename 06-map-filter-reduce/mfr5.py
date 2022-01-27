@@ -12,15 +12,18 @@ shopping_list = ["Tomatoes", "Bananas", "Crackers",
                  "Sugar", "Icecream", "Bread", "Bananas", "Chocolate"]
 print(shopping_list)
 
-filtered = filter(lambda item: item[0] == "B", shopping_list)
+filtered = list(filter(lambda item: item[0] == "B", shopping_list))
 
 
-def starts_with_B(item):
-    # Lambda written out in full:
-    if item[0] == "B":
-        return item
-    else:
-        return None
+# def starts_with_B(item):
+# # Lambda written out in full:
+# if item[0] == "B":
+#     return item
+# else:
+#     return None
 
 
-print(list(filtered))
+# new_list_B = list(filtered)
+# print(new_list_B)
+
+print(len(filtered))

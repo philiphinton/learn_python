@@ -26,18 +26,6 @@ pencil_case_contents = ['pencil', 'pen', 'fountain pen', 'felt pen',
                         'ruler', 'eraser', 'highlighter', 'scissors']
 
 # Let's use the built-in string function to capitalise each element in the list
-mapped = map(str.capitalize, pencil_case_contents)
+list_of_mapped = list(map(str.capitalize, pencil_case_contents))
 
-# Note the lack of parentheses after "str.capitalize"; we're not running
-# that function, just passing its name to `map` so it can run it for us.
-
-# Because `map()` returns a generator object, we cast it to a list for printing
-list_from_mapped = list(mapped)
-
-print(list_from_mapped)
-
-# Had we not cast it to a list and instead simply printed `mapped`, we'd
-# get the address in memory of the generator object itself, as you can see
-# by uncommenting the next line.
-
-# print(mapped)
+print(list_of_mapped)

@@ -15,7 +15,11 @@ def starts_with_B(item):
 mapped = map(starts_with_B, shopping_list)
 
 mapped_to_list = list(mapped)
+
 print(mapped_to_list)
+
+for item in mapped_to_list:
+    print(item)
 
 # We end up with a "one-to-one" list of True and False values that is
 # "mapped" perfectly onto the original iterable/list.
