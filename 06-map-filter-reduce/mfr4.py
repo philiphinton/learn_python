@@ -4,6 +4,13 @@ shopping_list = ["Tomatoes", "Bananas", "Crackers",
 print(shopping_list)
 
 # This time let's have our function return the value of matching elements
-mapped = map(lambda item: item if item[0] == "B" else None, shopping_list)
+mapped = list(
+    map(
+        lambda item: item if item[0] == "B" else None,
+        shopping_list
+    )
+)
 
-print(list(mapped))
+for item in mapped:
+    if item:
+        print(item)

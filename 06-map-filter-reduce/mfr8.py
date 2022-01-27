@@ -18,3 +18,12 @@ for position, item in enumerate(list_by_aisle):
         print("; ", end="")
 
 print(".")
+
+# ### Things to play with to replace lines 11 to 20
+# # for pos, item in enumerate(list_by_aisle, start=1):
+# #     print(f"{pos}. {item.name}")
+
+# counter = 1
+# for item in list_by_aisle:
+#     print(f"{counter}. {item.name}")
+#     counter += 1  # same as counter = counter + 1

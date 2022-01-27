@@ -8,7 +8,7 @@ each element in an iterable such that only one value is returned.
 """
 
 # `reduce()` used to be built-in but now has to be imported
-from functools import reduce
+from functools import reduce  # Google "functools basics" and "itertools"
 
 num_list = [1, 3.14159, 6, 93, 102]
 total = reduce(lambda x, y: x + y, num_list)
