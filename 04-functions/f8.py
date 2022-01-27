@@ -10,7 +10,7 @@ def calculate(operation: str, x: int, y: int = 1) -> int:
     `y` : int, optional
         The second number (default is 1)
     `operation`: str, optional
-        The operation to perform (default is addition)
+        Pass "subtract" to perform subtraction
     """
 
     if operation == "subtract":
@@ -32,3 +32,12 @@ print(f"The sum of {first} and {second} is {result}.")
 
 result = calculate("subtract", first, second)
 print(f"{first} minus {second} is {result}.")
+
+# If you don't pass a second variable, the default value is used.
+# There are now three parameters, so you have to name the 'operation' one:
+result = calculate(first, operation="subtract")
+print(f"{first} minus the default value is {result}.")
+
+# In other words, this would not have worked:
+# result = calculate(first, "subtract")
+# because the function would have treated "subtract" as the second number (y)

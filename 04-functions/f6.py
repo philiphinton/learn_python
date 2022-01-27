@@ -13,7 +13,7 @@ a blank line - this roughly equates to a carriage-return [PH].
 """
 
 
-def add(x, y=0):
+def add(x, y=5):
     """Takes two numbers and returns their sum.
     
     Second number optional; defaults to `0`.
@@ -43,5 +43,9 @@ second = int(input())
 result = add(first, second)
 print(f"The sum of {first} and {second} is {result}.")
 
-result = subtract(first, second)
-print(f"{first} minus {second} is {result}.")
+#If you don't pass a second variable, the default value is used:
+result = subtract(first)
+print(f"{first} minus the default value (1) is {result}.")
+
+result = add(first)
+print(f"The sum of {first} and the default is {result}.")

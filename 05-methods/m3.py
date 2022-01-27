@@ -1,5 +1,5 @@
 
-# Finally, you can call a module anything you like within your program
+# Finally, you can call a module/class anything you like within your program:
 from datetime import date as get_date
 
 today = get_date.today()

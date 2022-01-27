@@ -1,5 +1,6 @@
 
 # Two functions — one for addition, one for subtraction
+author = "Phil"
 
 def add(x, y):
     sum = x + y
@@ -26,3 +27,4 @@ print(f"10 minus 5 is {second_result}.")
 # Note that `sum` and `diff` are not accessible outside their functions
 # Un-commenting the next line will raise a NameError
 # print(diff)
+print(author)

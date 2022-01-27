@@ -4,7 +4,11 @@
 # So far we haven't specified any of this, and it was possible to
 # pass non-integers as input!
 
-def add(x: int, y: int = 0) -> int:
+# Grave accents either side of a text string cause it to be formatted by other programs 
+# (e.g. hover over "add" to see the popup).
+
+
+def add(x, y: int = 0) -> int:
     """Takes two numbers and returns their sum.
 
     Second number optional; defaults to `0`.
@@ -13,8 +17,8 @@ def add(x: int, y: int = 0) -> int:
     return x + y
 
 
-# Docstrings that define functions are often laid out like this, with a block in
-# which parameter types, optionality, and defaults (if any), are explained.
+# Docstrings that define functions are often laid out with a block
+# in which parameter types, optionality, and defaults are explained.
 
 
 def subtract(x: int, y: int = 1) -> int:
@@ -31,13 +35,6 @@ def subtract(x: int, y: int = 1) -> int:
 
 
 # Get two inputs from the user and cast them to integers
-<<<<<<< Updated upstream:functions/functions_07.py
-print("Enter a number:")
-first = int(input())
-
-print("Enter another number:")
-second = int(input())
-=======
 # first = int(input("Enter a number: "))
 # second = int(input("Enter another number: "))
 
@@ -45,7 +42,6 @@ first = 20
 # second = 10
 second = "the default value"
 
->>>>>>> Stashed changes:04-functions/f7.py
 
 # Print the results of the two calculations
 result = add(first)
@@ -53,3 +49,7 @@ print(f"The sum of {first} and {second} is {result}.")
 
 result = subtract(first)
 print(f"{first} minus {second} is {result}.")
+
+# If you don't pass a second variable, the default value is used:
+result = subtract(first)
+print(f"{first} minus the default value is {result}.")

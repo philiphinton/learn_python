@@ -14,5 +14,7 @@ print(speech)
 
 # There are lots of built-in methods you can use to operate on strings;
 # one of them, count(), counts the number of occurrences of a substring.
-count_of_or = speech.count('or') # count_of_to = speech.count('to')
-print(f"\nThe word 'or' appears {count_of_or} times in that speech.") # print(f"\nThe word 'to' appears {count_of_to} times in that speech.")
+count_of_to = speech.count('to')
+print(f"\nThe word 'to' appears {count_of_to} times in that speech.")
+
+# The "\n" at the start of that print call creates a new line

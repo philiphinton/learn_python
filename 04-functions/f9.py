@@ -5,7 +5,7 @@
 # For an explanation of the use of the "*" in the definition block, see
 # https://ivergara.github.io/boolean-arguments-to-functions-in-python.html
 
-def calculate(x: int, y: int = 1, *, subtraction: bool = False) -> int:
+def calculate(x: int, y: int = 1, *, subtract: bool = False) -> int:
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:
@@ -17,7 +17,7 @@ def calculate(x: int, y: int = 1, *, subtraction: bool = False) -> int:
         Whether to perform subtraction. Default is False.
     """
 
-    if subtraction:
+    if subtract:
         return x - y
     else:
         return x + y
@@ -39,5 +39,9 @@ second = int(input())
 result = calculate(first, second)
 print(f"The sum of {first} and {second} is {result}.")
 
-result = calculate(first, second, subtraction=True)
+result = calculate(first, second, subtract=True)
 print(f"{first} minus {second} is {result}.")
+
+# If you don't pass a second variable, the default value is used:
+result = calculate(first, subtract=True)
+print(f"{first} minus the default value is {result}.")

@@ -1,9 +1,9 @@
 
-def calculate(x: int, y: int, *, subtraction: bool = False) -> int:
+def calculate(x: int, y: int = 1, *, subtract: bool = False) -> int:
     """Calculates the sum (or difference) of two numbers.
 
     Parameters:
-    `x` : int
+    `x` : int, required
         The first number
     `y` : int, optional
         The second number (default is 1)
@@ -11,9 +11,7 @@ def calculate(x: int, y: int, *, subtraction: bool = False) -> int:
         Whether to perform subtraction. Default is False.
     """
 
-    if subtraction:
-        return x - y
-    return x + y
+    return x - y if subtract else x + y
 
 
 author = "Hugh Lilly"
