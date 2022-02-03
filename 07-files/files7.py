@@ -29,7 +29,7 @@ output = csv.writer(open(outfile, mode='w'))
 
 compared = sorted(differences, key=lambda x: x[0], reverse=True)
 
-for count, row in enumerate():
+for count, row in enumerate(compared):
     output.writerow(row)
 
 print(f"Wrote {count} rows to output file.")
