@@ -1,15 +1,18 @@
 
-# This time let's open a file for appending.
 
-# Define file path with an "r"-string
-filepath = r'07-files/soliloquy.txt'
+# This time let's append to a file. By default files are opened for reading,
+# in "text" mode. More: https://riptutorial.com/python/example/978/file-modes
+
+from pathlib import Path
+files_dir = Path('./07-files')
+filepath = files_dir / 'soliloquy.txt'
 
 new_lines = ["To sleep, perchance to dream; ay, there's the rub;",
              "For in that sleep of death what dreams may come",
              "When we have shuffled off this mortal coil,",
              "Must give us pause."]
 
-# Open for reading
+# Open for reading; note the variable name given to the file object
 with open(filepath, mode='r') as reader:
 
     # Enumerate over the file, but do nothing ("pass") with its contents
@@ -37,4 +40,4 @@ with open(filepath, mode='r') as reader:
     for line_num, line in enumerate(reader, start=1):
         print(line_num, line, end='')
 
-print(f"\nWrote {len(new_lines)} extra lines.")
+print(f"\nWrote {len(new_lines)} extra lines.\n")
