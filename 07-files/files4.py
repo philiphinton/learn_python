@@ -1,3 +1,4 @@
+
 # You can also use the `readlines()` method to iterate over the lines of a file
 
 filepath = r'07-files/shopping_list.csv'
