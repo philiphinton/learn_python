@@ -20,9 +20,9 @@ with open(filepath, mode='r') as reader:
 num_lines = position + 1
 print(f"\nFile is {num_lines} lines long.\n")
 
-print("*" * 10)
-print("Hamlet, Act III, scene I")
-print("*" * 10 + '\n')
+print("-" * 26)
+print(" Hamlet, Act III, scene I")
+print("-" * 26 + '\n')
 
 # Open in append mode ('a')
 with open(filepath, mode='a') as writer:
