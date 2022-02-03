@@ -1,0 +1,8 @@
+name,brand,price,unit,aisle,on_special
+"Tomatoes",None,.38,"kg","A",False
+"Bananas",None,.67,"kg","C",False
+"Crackers","Griffin's",2.35,"box","F",True
+"White sugar","Chelsea",5.5,"1.5kg","D",True
+"Vanilla icecream","Tip Top",6.5,"2L","X",True
+"Toast bread","Vogel's",3.89,"loaf","A",False
+"Chocolate","Whittaker's",5.49,"block","R",True
